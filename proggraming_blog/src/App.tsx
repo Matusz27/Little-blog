@@ -7,9 +7,9 @@ function App() {
 
 	return(
 	<>
+		<Header/>
 		<Switch>
 			<Route path="/" exact>
-				<Header/>
 				<TheLandingPage/>
 			</Route>
 		</Switch>
