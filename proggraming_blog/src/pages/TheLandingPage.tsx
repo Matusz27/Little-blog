@@ -1,10 +1,14 @@
-import BaseComponent from '../components/layout/base';
+import BaseComponent from '../layout/base';
+
+
+import classes from '../css/page_specific/mainpage.module.css'
+import Laptop_pic from '../images/Base/Laptop.png'
 
 function TheLandingPage() {
 
     return (
         <BaseComponent>
-            <div>
+            <div className={classes.hero}>
                 <h3>Welcome to my blog!</h3>
                 <h1>Proggramist’s space is a <br/> React Based Blog!
                     <svg width="68" height="31" viewBox="0 0 68 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -14,7 +18,7 @@ function TheLandingPage() {
                     </svg>
                 </h1>
             </div>
-            <img src= "..\images\Base\Laptop.png" alt = "laptop"/>
+            <img className={classes.laptop_pic} src={Laptop_pic} alt = "laptop"/>
         </BaseComponent>
     );
 }

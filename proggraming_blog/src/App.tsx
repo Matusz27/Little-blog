@@ -1,7 +1,7 @@
 
 import {Route, Switch} from 'react-router-dom';
 import TheLandingPage from './pages/TheLandingPage';
-import Header from './components/layout/header';
+import Header from './layout/header';
 
 function App() {
 

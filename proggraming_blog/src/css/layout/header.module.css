@@ -1,0 +1,21 @@
+.header {
+  height: 53px;
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #262626;
+}
+
+.header .logo {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 13px;
+  font-weight: 200;
+}
+/*# sourceMappingURL=header.module.css.map */

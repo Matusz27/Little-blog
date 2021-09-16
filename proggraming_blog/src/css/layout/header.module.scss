@@ -1,0 +1,19 @@
+
+
+
+
+
+.header{
+    height: 53px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 15%);
+
+    .logo{
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 13px;
+        font-weight: 200;
+    }
+}
