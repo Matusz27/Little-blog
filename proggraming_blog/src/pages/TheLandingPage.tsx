@@ -1,12 +1,10 @@
 import BaseComponent from '../layout/base';
-
-
 import classes from '../css/page_specific/mainpage.module.css'
 import Laptop_pic from '../images/Base/Laptop.png'
 
 function TheLandingPage() {
 
-    return (
+    return (<>
         <BaseComponent>
             <div className={classes.hero}>
                 <h3>Welcome to my blog!</h3>
@@ -20,7 +18,7 @@ function TheLandingPage() {
             </div>
             <img className={classes.laptop_pic} src={Laptop_pic} alt = "laptop"/>
         </BaseComponent>
-    );
+    </>);
 }
 
 export default TheLandingPage

@@ -22,8 +22,8 @@
 }
 
 .laptop_pic {
-  height: 170px;
-  -webkit-transform: translate(45vw, 20vh);
-          transform: translate(45vw, 20vh);
+  height: 25vh;
+  -webkit-transform: translate(45vw, 25vh);
+          transform: translate(45vw, 25vh);
 }
 /*# sourceMappingURL=mainpage.module.css.map */

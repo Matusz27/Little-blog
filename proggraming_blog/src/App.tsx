@@ -1,16 +1,18 @@
 
 import {Route, Switch} from 'react-router-dom';
 import TheLandingPage from './pages/TheLandingPage';
-import Header from './layout/header';
+import TheLoginPage from './pages/TheLoginPage';
 
 function App() {
 
 	return(
 	<>
-		<Header/>
 		<Switch>
 			<Route path="/" exact>
 				<TheLandingPage/>
+			</Route>
+			<Route path='/login' exact>
+				<TheLoginPage/>
 			</Route>
 		</Switch>
 	</>

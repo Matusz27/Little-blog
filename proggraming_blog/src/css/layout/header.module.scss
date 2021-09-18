@@ -13,7 +13,12 @@
 
     .logo{
         font-family: 'Petit Formal Script', cursive;
+        font-style: normal;
+        font-weight: normal;
         font-size: 13px;
-        font-weight: 200;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 }
