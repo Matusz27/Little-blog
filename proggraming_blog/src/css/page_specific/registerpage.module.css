@@ -11,10 +11,11 @@
           justify-content: center;
 }
 
-.loginwindow {
+.registerwindow {
   background-color: #262626;
   position: absolute;
-  height: 34vh;
+  height: 60vh;
+  max-height: 400px;
   width: 85%;
   border-radius: 20px;
   display: -webkit-box;
@@ -31,10 +32,10 @@
           box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
-.loginwindow h1 {
+.registerwindow h1 {
   font-style: italic;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,5 +45,6 @@
           align-items: center;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
-/*# sourceMappingURL=loginpage.module.css.map */
+/*# sourceMappingURL=registerpage.module.css.map */

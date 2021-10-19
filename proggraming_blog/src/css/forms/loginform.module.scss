@@ -1,0 +1,63 @@
+
+
+
+
+
+
+.loginform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5vh;
+
+    input{
+        border: none;
+        padding: 10px 20px;
+        width: 60%;
+        background: #C4C4C4;
+        border-radius: 60px;
+        font-family: Poppins;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 11px;
+        color: #575757;
+    }
+
+    .inputsfileds{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 1vh;
+    }
+
+    .remember{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        font-size: 11px;
+
+        input{
+            width: 12px;
+            height: 12px;
+            border-radius: 0px;
+        }
+    }
+
+    input[type = submit]{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        letter-spacing: 0.15em;
+        padding: 15px 0px;
+        width: 100px;
+        height: 30px;
+        font-weight: 100;
+        background: #373737;
+        color: #FFFFFF;
+    }
+}

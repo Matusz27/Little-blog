@@ -2,6 +2,7 @@
 import {Route, Switch} from 'react-router-dom';
 import TheLandingPage from './pages/TheLandingPage';
 import TheLoginPage from './pages/TheLoginPage';
+import TheRegisterPage from './pages/TheRegisterPage';
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
 			</Route>
 			<Route path='/login' exact>
 				<TheLoginPage/>
+			</Route>
+			<Route path='/register' exact>
+				<TheRegisterPage/>
 			</Route>
 		</Switch>
 	</>
